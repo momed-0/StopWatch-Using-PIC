@@ -12,7 +12,7 @@
 #include <xc.h>
 #include "config.h"
 
-#pragma config WDT = OFF        // Watchdog Timer Enable bit (WDT enabled)
+
 
 //defining CRYSTAL FREQUENCY for __delay_ms()
 #define _XTAL_FREQ 4000000
@@ -70,6 +70,7 @@ void setioport()
 {
     //PORTC as output -seven segment display
     TRISC = 0;
+    TRISB = 0xFF;
 }
 
 //------------interrupt service routine --------------------
