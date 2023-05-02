@@ -28,9 +28,9 @@ unsigned char binary_pattern[]={0b11000000,0b11111001,0b10100100,
 
 //----------------------------------------------------------------------------
 //count keep track of the number in segment display
-unsigned int count = 0;
+volatile unsigned int count = 0;
 //pass = 0 means the display stops and pass=1 display proceeds
-unsigned int pass = 1;
+volatile unsigned int pass = 1;
 
 //----------------------------------------------------------------------------
 //enable intrrupt will enable interrupt globally and specific hardware interrupts
