@@ -1,0 +1,81 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F452 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"43 C:\Users\muham\MPLABXProjects\timer.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"60
+[v _enableinterrupt enableinterrupt `(v  1 e 1 0 ]
+"69
+[v _setioport setioport `(v  1 e 1 0 ]
+"76
+[v _routine routine `IIH(v  1 e 1 0 ]
+"322 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f452.h
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"1648
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"6032
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"6083
+[v _INT0E INT0E `VEb  1 e 0 @32660 ]
+"6086
+[v _INT0F INT0F `VEb  1 e 0 @32657 ]
+"6098
+[v _INT1E INT1E `VEb  1 e 0 @32643 ]
+"6101
+[v _INT1F INT1F `VEb  1 e 0 @32640 ]
+"6119
+[v _INT2E INT2E `VEb  1 e 0 @32644 ]
+"6122
+[v _INT2F INT2F `VEb  1 e 0 @32641 ]
+"21 C:\Users\muham\MPLABXProjects\timer.X\main.c
+[v _binary_pattern binary_pattern `[10]uc  1 e 10 0 ]
+"31
+[v _count count `ui  1 e 2 0 ]
+"33
+[v _pass pass `ui  1 e 2 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+{
+"58
+} 0
+"69
+[v _setioport setioport `(v  1 e 1 0 ]
+{
+"73
+} 0
+"60
+[v _enableinterrupt enableinterrupt `(v  1 e 1 0 ]
+{
+"67
+} 0
+"76
+[v _routine routine `IIH(v  1 e 1 0 ]
+{
+"98
+} 0
